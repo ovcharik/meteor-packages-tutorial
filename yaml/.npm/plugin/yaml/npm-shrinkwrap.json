@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "js-yaml": {
+      "version": "3.2.2",
+      "dependencies": {
+        "argparse": {
+          "version": "0.1.15",
+          "dependencies": {
+            "underscore": {
+              "version": "1.4.4"
+            },
+            "underscore.string": {
+              "version": "2.3.3"
+            }
+          }
+        },
+        "esprima": {
+          "version": "1.0.4"
+        }
+      }
+    }
+  }
+}
