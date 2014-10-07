@@ -44,7 +44,7 @@
 
     $ meteor add username:packagename
 
-Например *meteor add iron:router*. Для указания специфичной версии пакета, можно использовать *meteor add username:packagename@version*, например нам нужен пакет c версией *0.1.0* - выполняем *meteor add username:packagename@0.1.0*, в данном случае будет установлена указанная версия или выше, отличающаяся только патчем (последней цифрой в версии). Для указания точной версии нужно написать знак *=* перед версией: *meteor add username:packagename@=0.1.0*. Чтобы удалить специфичную версию можно просто ввести *meteor add username:packagename*.
+Например *meteor add iron:router*. Для указания специфичной версии пакета, можно использовать *meteor add username:packagename@version*, например нам нужен пакет c версией *0.1.0* - выполняем *meteor add username:packagename@0.1.0*, в данном случае будет установлена указанная версия или выше, но совместимая с *0.1.0*. Для указания точной версии нужно написать знак *=* перед версией: *meteor add username:packagename@=0.1.0*. Чтобы удалить специфичную версию можно просто ввести *meteor add username:packagename*.
 
 Для обновления пакетов и Meteor в целом можно выполнить
 
@@ -139,3 +139,4 @@
 2. [Зачем нужна еще одна система пакетов?](https://www.meteor.com/blog/2014/08/28/isobuild-why-meteor-created-a-new-package-system)
 3. [Описание системы пакетов на английском, пока находится в разработке](https://meteor.hackpad.com/Unipackage-tvas8pXYMOW)
 4. [Описание команд, поддерживаемых Meteor](http://docs.meteor.com/#commandline)
+5. [Репозиторий с примерами](https://github.com/ovcharik/meteor-packages-tutorial)
